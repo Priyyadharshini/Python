@@ -8,4 +8,7 @@ def countstrings(n,start):
 def countvowelstrings(n):
     return countstrings(n,0)
 n=int(input("Enter the number: "))
-print(countvowelstrings(n))
+if n<0:
+    print("Enter a positive number")
+else:
+    print(countvowelstrings(n))
