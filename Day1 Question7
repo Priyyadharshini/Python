@@ -7,5 +7,5 @@ def countstrings(n,start):
     return count
 def countvowelstrings(n):
     return countstrings(n,0)
-n=1
+n=int(input("Enter the number: "))
 print(countvowelstrings(n))
