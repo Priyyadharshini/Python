@@ -1,0 +1,15 @@
+def isleap(year):
+     if year%400==0 or year%4==0 :
+        print("It is a leap year")
+     elif year%100==0:
+        print("It is not a leap year")
+     else:
+         print("It is not a leap year")
+    
+year=float(input("Enter the year: "))
+yr=int(year)
+if year<=0 or year!=yr :
+    print("Enter a valid year")
+else:
+    print(isleap(year))
+   
