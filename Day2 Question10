@@ -1,0 +1,13 @@
+def uncommonword(a,b):
+    count={}
+    for word in a.split():
+        count[word]=count.get(word,0)+1
+    for word in b.split():
+        count[word]=count.get(word,0)+1
+    return [word for word in count if count[word]==1]
+
+a=input("Enter a string: ")
+b=input("Enter a string: ")
+print(a)
+print(b)
+print("The result is: ",uncommonword(a,b))
