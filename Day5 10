@@ -1,0 +1,6 @@
+str=str(input("string: "))
+s=str.split()[::-1]
+L=[]
+for i in s:
+    L.append(i)
+print(" ".join(L))    
