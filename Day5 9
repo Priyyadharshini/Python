@@ -24,6 +24,6 @@ else:
         for i in range(int(n)):
             p=int(input(''))
             L2.append(p)
-    print("List1=",L1)    
-    print("List2=",L2)
-    shuffle(L1,L2)
+        print("List1=",L1)    
+        print("List2=",L2)
+        shuffle(L1,L2)
