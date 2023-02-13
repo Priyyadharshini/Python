@@ -1,0 +1,22 @@
+def shuffle(L1,L2):
+    L3=[]
+    for i in range(len(L1)):
+        L3.append(L1[i])
+        if i<len(L2):
+            L3.append(L2[i])
+    if len(L1)<len(L2):
+        L3=L3+L2[len(L1):]
+    print("Shuffled list=",L3)
+L1=[]
+L2=[]
+m=int(input("Enter the size of the list1::"))
+for i in range(int(m)):
+    k=int(input(''))
+    L1.append(k)
+n=int(input("Enter the size of the list2::"))
+for i in range(int(n)):
+    p=int(input(''))
+    L2.append(p)
+print("List1=",L1)    
+print("List2=",L2)
+shuffle(L1,L2)
